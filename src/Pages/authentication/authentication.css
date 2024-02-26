@@ -152,3 +152,19 @@
     z-index: 5;
   }
 }
+
+@media screen and (max-width: 1074px) and (min-width: 761px) {
+  .container {
+    /* Update styles for screens up to 1074px width */
+    width: 70% !important; /* Adjust width as needed */
+    background: red;
+  }
+  .sign-in {
+    width: 35% !important;
+  }
+  .sign-up {
+    width: 50% !important;
+  }
+}
+
+

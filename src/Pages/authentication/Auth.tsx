@@ -10,10 +10,10 @@ function Auth() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-blue-200 flex items-center justify-center flex-col h-screen">
+    <div className="bg-gradient-to-r from-gray-300 to-blue-200 flex items-center justify-center flex-col h-screen ">
       <div
         className={` ${
-          Active ? "container active w-[50%]" : "container w-[50%] "
+          Active ? "container active w-[50%]" : "container w-[50%]  "
         }`}
       >
         <div className="absolute top-0 h-full transition-all duration-600 ease-in-out sign-up">
