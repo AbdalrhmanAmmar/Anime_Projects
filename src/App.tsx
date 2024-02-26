@@ -1,9 +1,9 @@
-import Auth from "./Pages/Auth";
+import Auth from "./Pages/authentication/Auth";
 
 function App() {
   return (
     <>
-      <Auth/>
+      <Auth />
     </>
   );
 }
