@@ -2,6 +2,7 @@ import { useState } from "react";
 import Login from "../../Components/Login/Login";
 import Signup from "../../Components/Signup/Signup";
 import "./authentication.css";
+import Button from "../../Components/UI_shared/Button";
 
 function Auth() {
   const [Active, setActive] = useState("");
@@ -19,7 +20,7 @@ function Auth() {
         <div className="absolute top-0 h-full transition-all duration-600 ease-in-out sign-up">
           <Signup />
         </div>
-        <div className="absolute top-0 h-full transition-all duration-600 ease-in-out Sign-in">
+        <div className="absolute top-0 h-full transition-all duration-600 ease-in-out sign-in">
           <Login />
         </div>
         <div className="toggle-container">
@@ -27,14 +28,18 @@ function Auth() {
             <div className="toggle-panel toggle-left">
               <h1>Welcome Back!</h1>
               <p>Enter your personal details to use all of site features</p>
-              <button onClick={() => setActive("")}>Sign In</button>
+              <Button variant="indigo" onClick={() => setActive("")}>
+                Sign In
+              </Button>
             </div>
             <div className="toggle-panel toggle-right">
               <h1>Hello, Friend!</h1>
               <p>
                 Register with your personal details to use all of site features
               </p>
-              <button onClick={onActive}>Sign Up</button>
+              <Button variant="indigo" onClick={onActive}>
+                Sign Up
+              </Button>
             </div>
           </div>
         </div>

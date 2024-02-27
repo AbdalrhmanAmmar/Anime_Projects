@@ -27,7 +27,7 @@
   margin: 15px 0 10px;
 }
 
-.container button {
+/* .container button {
   background-color: #512da8;
   color: #fff;
   font-size: 12px;
@@ -39,7 +39,7 @@
   text-transform: uppercase;
   margin-top: 10px;
   cursor: pointer;
-}
+} */
 
 .form-container {
   position: absolute;
@@ -56,6 +56,7 @@
 
 .container.active .sign-in {
   transform: translateX(100%);
+  display: none;
 }
 
 .sign-up {
@@ -153,18 +154,16 @@
   }
 }
 
-@media screen and (max-width: 1074px) and (min-width: 761px) {
+/* @media screen and (max-width: 1074px) and (min-width: 761px) {
   .container {
-    /* Update styles for screens up to 1074px width */
-    width: 70% !important; /* Adjust width as needed */
+  
+    width: 70% !important;
     background: red;
   }
   .sign-in {
-    width: 35% !important;
+    width: 50% !important;
   }
   .sign-up {
     width: 50% !important;
   }
-}
-
-
+} */
